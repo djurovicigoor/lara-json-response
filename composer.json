@@ -1,0 +1,44 @@
+{
+    "name": "djurovicigoor/larajsonresponse",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Djurovic Igor",
+            "email": "djurovic.igoor@gmail.com",
+            "homepage": "http://djurovic.xyz"
+        }
+    ],
+    "homepage": "https://github.com/djurovicigoor/larajsonresponse",
+    "keywords": ["Laravel", "LaraJsonResponse"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DjurovicIgoor\\LaraJsonResponse\\": "src/"
+        }  ,
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DjurovicIgoor\\LaraJsonResponse\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DjurovicIgoor\\LaraJsonResponse\\LaraJsonResponseServiceProvider"
+            ],
+            "aliases": {
+                "LaraJsonResponse": "DjurovicIgoor\\LaraJsonResponse\\Facades\\LaraJsonResponse"
+            }
+        }
+    }
+}
