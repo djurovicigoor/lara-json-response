@@ -21,7 +21,7 @@ if (!function_exists('laraResponse')) {
 		
 		$laraResponse = new LaraJsonResponse($message, $data, $error);
 		
-		if (is_null($data) && is_null($error)) {
+		if (is_null($message) && is_null($data) && is_null($error)) {
 			
 			return $laraResponse->success();
 		}

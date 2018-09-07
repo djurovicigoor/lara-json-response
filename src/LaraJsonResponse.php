@@ -45,6 +45,22 @@ class LaraJsonResponse {
 	/**
 	 * @return \Illuminate\Http\JsonResponse
 	 */
+	public function unAuthorized() {
+		
+		return $this->globalResponse(401);
+	}
+	
+	/**
+	 * @return \Illuminate\Http\JsonResponse
+	 */
+	public function forbidden() {
+		
+		return $this->globalResponse(403);
+	}
+	
+	/**
+	 * @return \Illuminate\Http\JsonResponse
+	 */
 	public function notFound() {
 		
 		return $this->globalResponse(404);
@@ -56,14 +72,6 @@ class LaraJsonResponse {
 	public function validationError() {
 		
 		return $this->globalResponse(422);
-	}
-	
-	/**
-	 * @return \Illuminate\Http\JsonResponse
-	 */
-	public function unAuthorized() {
-		
-		return $this->globalResponse(401);
 	}
 	
 	/**
