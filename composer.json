@@ -1,6 +1,6 @@
 {
     "name": "djurovicigoor/larajsonresponse",
-    "description": "Laravel JSON API wraper - helper",
+    "description": "Laravel API wrapper for returning JSON response.",
     "license": "MIT",
     "authors": [
         {
