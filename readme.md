@@ -1,10 +1,12 @@
 # LaraJsonResponse
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/djurovicigoor/larajsonresponse.svg?style=for-the-badge)](https://packagist.org/packages/djurovicigoor/larajsonresponse)
+
+![Total Downloads](https://img.shields.io/packagist/dt/djurovicigoor/larajsonresponse.svg?style=for-the-badge)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Laravel API wrapper for returning JSON response. Take a look at [contributing.md](contributing.md) to see a to do list.
 
 ## Installation
 
