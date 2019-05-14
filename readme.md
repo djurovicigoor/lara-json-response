@@ -3,6 +3,8 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/djurovicigoor/larajsonresponse.svg?style=for-the-badge)](https://packagist.org/packages/djurovicigoor/larajsonresponse)
 ![Total Downloads](https://img.shields.io/packagist/dt/djurovicigoor/larajsonresponse.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/djurovicigoor/lara-json-response/master.svg?style=for-the-badge)
+![Scrutinizer build (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/build/g/djurovicigoor/lara-json-response/master.svg?style=for-the-badge)
 
 Laravel API wrapper for returning JSON response.
 
