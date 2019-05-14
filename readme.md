@@ -126,7 +126,7 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 If you discover any security related issues, please email djurovic.igoor@gmail.com instead of using the issue tracker.
 
-# Donate
+## Donate
 
 > If you found this project helpful or you learned something from the source code and want to appreciate
 >
