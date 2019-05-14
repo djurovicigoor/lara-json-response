@@ -4,7 +4,7 @@
 ![Total Downloads](https://img.shields.io/packagist/dt/djurovicigoor/larajsonresponse.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Laravel API wrapper for returning JSON response. Take a look at [contributing.md](contributing.md) to see a to do list.
+Laravel API wrapper for returning JSON response.
 
 ## Installation
 
