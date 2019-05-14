@@ -126,6 +126,13 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 If you discover any security related issues, please email djurovic.igoor@gmail.com instead of using the issue tracker.
 
+# Donate
+
+> If you found this project helpful or you learned something from the source code and want to appreciate
+>
+> - [PayPal](https://paypal.me/djurovicigoor?locale.x=en_US)
+<br>
+
 ## Credits
 
 - [Djurovic Igor][link-author]
