@@ -2,7 +2,7 @@
 
 Contributions are welcome and will be fully credited.
 
-Contributions are accepted via Pull Requests on [Github](https://github.com/djurovicigoor/larajsonresponse).
+Contributions are accepted via Pull Requests on [Github](https://github.com/djurovicigoor/lara-json-response).
 
 ## Pull Requests
 
