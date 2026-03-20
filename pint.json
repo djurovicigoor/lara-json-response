@@ -1,0 +1,24 @@
+{
+  "preset": "psr12",
+  "rules": {
+    "fully_qualified_strict_types": {
+      "import_symbols": true
+    },
+    "binary_operator_spaces": {
+      "default": "single_space",
+      "operators": {
+        "=>": "align_single_space_minimal"
+      }
+    },
+    "array_indentation": true,
+    "array_syntax": {
+      "syntax": "short"
+    },
+    "trailing_comma_in_multiline": true,
+    "ordered_imports": {
+      "sort_algorithm": "length"
+    },
+    "no_superfluous_phpdoc_tags": false,
+    "phpdoc_no_empty_return": false
+  }
+}

@@ -10,10 +10,13 @@
         }
     ],
     "homepage": "https://github.com/djurovicigoor/larajsonresponse",
-    "keywords": ["Laravel", "LaraJsonResponse"],
+    "keywords": ["Laravel", "LaraJsonResponse" , "JSON" , "Response" , "API"],
     "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
     },
     "require-dev": {
+        "laravel/pint": "^1.22"
     },
     "autoload": {
         "psr-4": {
