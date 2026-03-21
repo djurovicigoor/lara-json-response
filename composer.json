@@ -10,18 +10,20 @@
         }
     ],
     "homepage": "https://github.com/djurovicigoor/larajsonresponse",
-    "keywords": ["Laravel", "LaraJsonResponse" , "JSON" , "Response" , "API"],
+    "keywords": ["Laravel", "LaraJsonResponse", "JSON", "Response", "API"],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
     },
     "require-dev": {
-        "laravel/pint": "^1.22"
+        "laravel/pint": "^1.22",
+        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^10.5|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
             "DjurovicIgoor\\LaraJsonResponse\\": "src/"
-        }  ,
+        },
         "files": [
             "src/Helpers/functions.php"
         ]
@@ -40,5 +42,12 @@
                 "LaraJsonResponse": "DjurovicIgoor\\LaraJsonResponse\\Facades\\LaraJsonResponse"
             }
         }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "format": "vendor/bin/pint",
+        "test": "vendor/bin/phpunit"
     }
 }
