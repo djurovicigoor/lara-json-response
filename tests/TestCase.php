@@ -2,8 +2,9 @@
 
 namespace DjurovicIgoor\LaraJsonResponse\Tests;
 
-use DjurovicIgoor\LaraJsonResponse\LaraJsonResponseServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
+use DjurovicIgoor\LaraJsonResponse\Facades\LaraJsonResponse;
+use DjurovicIgoor\LaraJsonResponse\LaraJsonResponseServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {
@@ -17,7 +18,7 @@ abstract class TestCase extends BaseTestCase
     protected function getPackageAliases($app): array
     {
         return [
-            'LaraJsonResponse' => \DjurovicIgoor\LaraJsonResponse\Facades\LaraJsonResponse::class,
+            'LaraJsonResponse' => LaraJsonResponse::class,
         ];
     }
 }

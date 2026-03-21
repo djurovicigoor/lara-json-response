@@ -2,8 +2,8 @@
 
 namespace DjurovicIgoor\LaraJsonResponse\Tests;
 
-use DjurovicIgoor\LaraJsonResponse\LaraJsonResponse;
 use Illuminate\Http\JsonResponse;
+use DjurovicIgoor\LaraJsonResponse\LaraJsonResponse;
 
 class HelperFunctionTest extends TestCase
 {
